@@ -273,7 +273,7 @@ also add `padding` to one or both of the `div` elements. Because they are part
 of a grid, setting the `height` of one affects the other. Try out different
 amounts until it looks right to you and matches the specification.
 
-## The little technology text
+## The little technology text("You are here")
 
 In the `div` that's in the center of the grid, put another `div` element that
 contains four `span` elements containing the text "CSS", "HTML", "JavaScript",

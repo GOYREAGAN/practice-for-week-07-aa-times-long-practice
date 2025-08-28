@@ -1,1 +1,48 @@
 /* Your code here */
+.masthead{
+    display: grid; /*make a grid*/
+    grid-template-columns: repeat(3, 1fr); /*create 3 columns*/
+    grid-template-rows: repeat(2,1fr);/*create 2 rows*/
+}
+/*positions for each action on the header*/
+.menu-search{
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 20px;
+}
+.action-buttons{
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+.dates{
+    grid-column: 1;
+    grid-row: 2;
+}
+.programming-languages{
+    grid-column: 2;
+    grid-row: 1;
+}
+.logo{
+    grid-column: 2;
+    grid-row: 2;
+}
+.today-paper{
+    grid-column: 3;
+    grid-row: 2;
+
+}
+.clickable-icons{
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: inline-block;
+}
+.clickable-icons::hover{
+    background-color: #f7f7f5;
+}
