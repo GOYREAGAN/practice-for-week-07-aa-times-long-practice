@@ -16,11 +16,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px;
 }
 .dates{
     grid-column: 1;
     grid-row: 2;
+    margin-bottom: 11px;
+    display: flex;
+    align-items: flex-end;
+
 }
 .programming-languages{
     grid-column: 2;
@@ -29,11 +32,21 @@
 .logo{
     grid-column: 2;
     grid-row: 2;
+    text-align: center;
+    height: 100%;
 }
 .today-paper{
     grid-column: 3;
     grid-row: 2;
-
+    margin-bottom: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.dates, .logo, .today-paper{
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+    border-top: 1px solid #e2e2e2;
 }
 .clickable-icons{
     font-size: 11px;
@@ -45,4 +58,14 @@
 }
 .clickable-icons::hover{
     background-color: #f7f7f5;
+}
+.tech-stack{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }

@@ -273,7 +273,7 @@ also add `padding` to one or both of the `div` elements. Because they are part
 of a grid, setting the `height` of one affects the other. Try out different
 amounts until it looks right to you and matches the specification.
 
-## The little technology text("You are here")
+## The little technology text
 
 In the `div` that's in the center of the grid, put another `div` element that
 contains four `span` elements containing the text "CSS", "HTML", "JavaScript",
@@ -311,7 +311,7 @@ that contains the logo.
 
 ![masthead nearly finished]
 
-## The cute little borders
+## The cute little borders("You are here")
 
 For the three elements that run across the bottom of the grid, add a 1 pixel
 border on the bottom of those elements with the light gray color (refer to
