@@ -1,1 +1,94 @@
 /* Your code here */
+.click-icons{
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    display: inline-block;
+    padding-left: 20px;
+
+}
+
+.click-icons:hover{
+    background-color: #f7f7f5;
+}
+
+
+.css,.html,.javascript,.python{
+    margin: 5px;
+}
+
+.masthead{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.masthead_menu-and-search{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.masthead_action{
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.masthead_technologies{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+
+}
+
+.masthead_date{
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.masthead_logo{
+    grid-row: 2;
+    grid-column: 2;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.masthead_paper{
+    grid-row: 2;
+    grid-column: 3;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.masthead_date,.masthead_logo,.masthead_paper{
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+    border-top: 1px solid #e2e2e2;
+}
+
+.technologies{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+
+
