@@ -1,1 +1,16 @@
 /* Your code here */
+.main-nav-bar{
+    grid-column: 2;
+    grid-row: 3;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    gap: 20px;
+    height: 100%;
+    padding-top: 1px;
+}
