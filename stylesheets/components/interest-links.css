@@ -1,1 +1,13 @@
 /* Your code here */
+.interests-bar__image{
+    width: 60px;
+    height: auto;
+}
+
+.interests-bar__container{
+    display: grid;
+    grid-template-columns: 9;
+    grid-template-rows: 1;
+    grid-auto-flow: column;
+    column-width: 1, 2, 1, 2, 1, 2, 2, 1, 1;
+}
